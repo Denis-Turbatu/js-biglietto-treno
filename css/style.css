@@ -5,11 +5,27 @@
     padding: 0;
 }
 
+img{
+    max-width: 100%;
+}
+
+/* HEADER */
+
+header{
+    padding: 20px 0;
+    background: linear-gradient(#353434, #1f1f1f);
+}
+
+header img{
+    width: 200px;
+    margin-left: 15px;
+}
+
 /* MAIN */
 
 .wrapper {
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 100px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +37,7 @@ h1 {
 }
 .card{
     padding: 4rem 7rem;
-    background-color: #353434;
+    background: linear-gradient(#353434, #1f1f1f);
     color: #ffffff;
     font-family: sans-serif;
     border-radius: 25px;
