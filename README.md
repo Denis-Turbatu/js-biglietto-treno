@@ -29,6 +29,9 @@ Altrimenti (l'utente pagherà il prezzo normale)
     prezzoBiglietto = prezzo di base
 
 ### 3. Output
+
+```
 | Base | Minorenne | Over 65 |
 | km10 | km10      | km 10   |
 | 2.10€| 1,68€     | 1,26€   |
+``` 
