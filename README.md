@@ -19,7 +19,8 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 - [] Chiedere all'utente quanti anni ha
 
 ### 2. Logica algoritmo
-prezzoBiglietto = a quanti kilometri l'utente deve percorrere * 0,21cent al kilometro
+- [] Calcolo prezzoBiglietto = a quanti kilometri l'utente deve percorrere * 0,   21cent al kilometro
+
 
 Se (l'utente è minorenne allora avrà uno sconto del 20%)
     prezzoBiglietto = prezzo scontato per minori
@@ -30,8 +31,11 @@ Altrimenti (l'utente pagherà il prezzo normale)
 
 ### 3. Output
 
+- [] Stampa risultato del biglietto
+
+*Esempio*
 ```
-| Base | Minorenne | Over 65 |
-| km10 | km10      | km 10   |
-| 2.10€| 1,68€     | 1,26€   |
+| Base  | Minorenne | Over 65 |
+| km10  | km10      | km 10   |
+| 2.10€ | 1,68€     | 1,26€   |
 ``` 
