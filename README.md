@@ -31,7 +31,7 @@ Altrimenti (l'utente pagherà il prezzo normale)
 
 ### 3. Output
 
-- [] Stampa risultato del biglietto
+- [X] Stampa risultato del biglietto
 
 *Esempio*
 ```

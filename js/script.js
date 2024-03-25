@@ -1,10 +1,12 @@
 // ********** Km travel request **********
 const userTravelKm = parseInt(prompt("Quanti kilometri devi percorrere?"));
+document.getElementById("userKm").innerHTML = userTravelKm;
 // debug
 console.log(userTravelKm + " Km", typeof userTravelKm);
 
 // ********** User age request **********
 const userAge = parseInt(prompt("Quanti anni hai?"));
+document.getElementById('userAge').innerHTML = userAge;
 // debug
 console.log(userAge + " anni", typeof userAge);
 
@@ -25,3 +27,5 @@ if (userAge < 18){
     // debug
     console.log(ticketPrice, typeof ticketPrice);
 }
+
+document.getElementById('ticketPrice').innerHTML = ticketPrice + " €";

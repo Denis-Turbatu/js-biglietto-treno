@@ -1,0 +1,32 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* MAIN */
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+h1 {
+    color: rgb(226, 63, 63);
+}
+.card{
+    padding: 4rem 7rem;
+    background-color: #353434;
+    color: #ffffff;
+    font-family: sans-serif;
+    border-radius: 25px;
+}
+
+tr, td {
+    padding: 15px 15px 15px 0;
+}
