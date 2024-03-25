@@ -15,8 +15,8 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 ## SVOLGIMENTO
 
 ### 1. Richiesta dati utente
-- [] Chiedere all'utente quanti kilometri dovrà percorrere
-- [] Chiedere all'utente quanti anni ha
+- [X] Chiedere all'utente quanti kilometri dovrà percorrere
+- [X] Chiedere all'utente quanti anni ha
 
 ### 2. Logica algoritmo
 - [] Calcolo prezzoBiglietto = a quanti kilometri l'utente deve percorrere * 0,   21cent al kilometro
