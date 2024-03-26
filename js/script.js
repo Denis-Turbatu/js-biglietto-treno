@@ -15,17 +15,17 @@ console.log(userAge + " anni", typeof userAge);
 let ticketPrice = "";
 
 if (userAge < 18){
-    ticketPrice = parseFloat(((userTravelKm * 0.21) * 0.80).toFixed(2));
+    ticketPrice = ((userTravelKm * 0.21) * 0.80);
     // debug
     console.log(ticketPrice, typeof ticketPrice);
 }else if(userAge >= 65){
-    ticketPrice = parseFloat(((userTravelKm * 0.21) * 0.6).toFixed(2));
+    ticketPrice = ((userTravelKm * 0.21) * 0.6);
     // debug
     console.log(ticketPrice, typeof ticketPrice);
 }else{
-    ticketPrice = parseFloat((userTravelKm * 0.21).toFixed(2));
+    ticketPrice = (userTravelKm * 0.21);
     // debug
-    console.log(ticketPrice, typeof ticketPrice);
+    console.log(ticketPrice, typeof ticketPrice);   
 }
 
-document.getElementById('ticketPrice').innerHTML = ticketPrice + " €";
+document.getElementById('ticketPrice').innerHTML = (ticketPrice).toFixed(2) + " €";
